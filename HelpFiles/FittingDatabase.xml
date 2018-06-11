@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fitting_database>
+
+	<face_types>
+	
+		<face_type>
+			<face_type_id>chair lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>chair back</face_type_id>
+		</face_type>
+	
+		<face_type>
+			<face_type_id>chair front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>table side</support_face_type_id>
+					<distance>0.2</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>table side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>coffee table long side</support_face_type_id>
+					<distance>0.25</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0.1</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>coffee table lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>coffee table long side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>floor lamp side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>sofa front</support_face_type_id>
+					<distance>1.8</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv back</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase lateral side</face_type_id>
+		</face_type>
+		
+	</face_types>
+	
+	<fitting_types>
+		<fitting_type>
+			<fitting_type_id>chair</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>chair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>chair back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>chair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>chair front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>sofa</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>sofa lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>sofa back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>sofa lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>sofa front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>armchair</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>armchair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>armchair back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>armchair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>armchair front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>coffee table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>coffee table lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>coffee table long side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>coffee table lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>coffee table long side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>floor lamp</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>tv</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>tv lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>tv back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>tv lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>tv front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>bookcase lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>bookcase back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>bookcase lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>bookcase front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+	</fitting_types>
+	
+	<fitting_models>
+	
+		<fitting_model>
+			<fitting_type_id>chair</fitting_type_id>
+			<fitting_model_id>Armaldi wooden chair</fitting_model_id>
+			<bounding_box>
+				<width>0.42</width>
+				<depth>0.48</depth>
+				<height>0.89</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.27</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.27</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.1</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.1</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>table</fitting_type_id>
+			<fitting_model_id>Armaldi wooden table</fitting_model_id>
+			<bounding_box>
+				<width>1.70</width>
+				<depth>0.90</depth>
+				<height>0.75</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>sofa</fitting_type_id>
+			<fitting_model_id>Frenhaus burlap sofa</fitting_model_id>
+			<bounding_box>
+				<width>1.70</width>
+				<depth>0.90</depth>
+				<height>0.80</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>armchair</fitting_type_id>
+			<fitting_model_id>Armaldi armchair</fitting_model_id>
+			<bounding_box>
+				<width>0.58</width>
+				<depth>0.68</depth>
+				<height>0.95</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>coffee table</fitting_type_id>
+			<fitting_model_id>Donnerstag coffee table</fitting_model_id>
+			<bounding_box>
+				<width>1.24</width>
+				<depth>0.52</depth>
+				<height>0.48</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor lamp</fitting_type_id>
+			<fitting_model_id>KLEA floor lamp</fitting_model_id>
+			<bounding_box>
+				<width>0.40</width>
+				<depth>0.40</depth>
+				<height>1.43</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>tv</fitting_type_id>
+			<fitting_model_id>LuckyPanel flatscreen TV</fitting_model_id>
+			<bounding_box>
+				<width>1.04</width>
+				<depth>0.22</depth>
+				<height>0.85</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>1.8</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<fitting_model_id>KLEA white bookcase</fitting_model_id>
+			<bounding_box>
+				<width>1.43</width>
+				<depth>0.56</depth>
+				<height>1.98</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.6</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+	</fitting_models>
+	
+</fitting_database>

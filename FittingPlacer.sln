@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FittingPlacer", "Main\FittingPlacer.csproj", "{22F622F7-2990-4108-B88C-69F9F41F8689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunApplication", "RunApplication\RunApplication.csproj", "{59A0CA8B-92ED-44EC-AAD3-CD42FECA54CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F622F7-2990-4108-B88C-69F9F41F8689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F622F7-2990-4108-B88C-69F9F41F8689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F622F7-2990-4108-B88C-69F9F41F8689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F622F7-2990-4108-B88C-69F9F41F8689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A0CA8B-92ED-44EC-AAD3-CD42FECA54CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A0CA8B-92ED-44EC-AAD3-CD42FECA54CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A0CA8B-92ED-44EC-AAD3-CD42FECA54CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A0CA8B-92ED-44EC-AAD3-CD42FECA54CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
