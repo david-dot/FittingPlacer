@@ -1,4 +1,4 @@
-Fitting placer algorithm By David Ringqvist
+Fitting placer algorithm by David Ringqvist
 
 To the extent possible under law, the person who associated CC0 with the 
 Fitting placer algorithm has waived all copyright and related or neighboring rights
